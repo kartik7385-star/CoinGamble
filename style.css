@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Rajdhhani,'sans-serif';
+    font-family:'poppins',sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -12,6 +12,7 @@ section{
     min-height: 100vh;
     flex-direction: column;
     display: flex;
+
 }
 nav{
     position:fixed;
@@ -34,6 +35,7 @@ nav{
     justify-content: center;
     padding:10px 1px;
     align-items: center;
+
    
     
 }
@@ -54,16 +56,16 @@ nav a{
  .btn button {
     display: flex;
     border-radius:50px;
-    padding:12px 24px;
+    padding:10px 24px;
     font-weight:bold;
     cursor:pointer;
 
 }
 .btn{
     margin-left:auto;
-    margin-top: 10px;
+    margin-top: 9px;
 }
-.logo{
+ .logo{
     margin-right:auto;
     margin-top:-16px;
 
@@ -75,21 +77,59 @@ nav a{
      
 
 }
-
 .jj{
     display:flex;
-    width:500px;
+    width:550px;
     height:auto;
     float:right;
-    margin-top:100px;
+    margin-right:150px;
+    margin-top: 250px;
+
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    width: 400px;
+    margin:250px 100px 990px 150px;
+    gap:20px;
+    line-height:1.2;
+    float:left;
+
+}
+span.inves{
+    color: rgb(255, 72, 0);
+    background-colhor: pink;
+    border:1px solid transparent;
+    border-radius: 10px;
+}
+
 .downloads{
     display: flex;
-    height:40px;
+    margin:100px;
+    height:20px;
     align-items: center;
-    width:20px;
+    widtjh:10px;
     justify-content: center;
+    
 }
+.downloads button{
+    cursor:pointer;
+    display: flex;
+    margin-lefit:20px;
+    height:60px;
+    border:2px solid blue;
+    font-size:10px;
+    width:600px;
+
+    border-radius:50px;
+
+}
+.downloads button input{
+    margin:10px;
+    font-size: smaller;
+}
+
 .carousel{
     margin:100px auto;
     width:100%;
