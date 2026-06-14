@@ -27,7 +27,6 @@ nav{
     margin: 10px;
     border-radius: 30px;
     
-    
 }
 
 .about a{
@@ -61,10 +60,14 @@ nav a{
     cursor:pointer;
 
 }
+.btn button:hover{
+    background-color: linear-gradient(120deg , red ,blue);
+}
 .btn{
     margin-left:auto;
     margin-top: 9px;
 }
+
  .logo{
     margin-right:auto;
     margin-top:-16px;
@@ -78,55 +81,69 @@ nav a{
 
 }
 .jj{
-    display:flex;
-    width:550px;
-    height:auto;
+    
+    width:560px;
     float:right;
     margin-right:150px;
-    margin-top: 250px;
+    margin-top: 120px;
 
 }
 .content{
     display: flex;
     flex-direction: column;
     height:600px;
-    width: 400px;
-    margin:250px 100px 990px 150px;
+    width: 500px;
+    margin:220px 100px 990px 150px;
     gap:20px;
-    line-height:1.2;
+    line-height:1.3;
     float:left;
+    
+
+}
+.para{
+
+    line-height: 1.8;
 
 }
 span.inves{
     color: rgb(255, 72, 0);
-    background-colhor: pink;
-    border:1px solid transparent;
-    border-radius: 10px;
-}
 
+}
+.under{
+    background-color:rgb(240, 200, 206);
+    border-radius:6px;
+    margin-left: 2px;
+    padding:0 3px;
+    text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(52, 98, 49);
+}
 .downloads{
+
     display: flex;
-    margin:100px;
-    height:10px;
+    margin:40px;
+    
     align-items: center;
     width: 100%;
+    margin-left: -10px;
     
 }
 .downloads button{
     cursor:pointer;
     display: flex;
     margin-left:20px;
-    height:60px;
+    
+    height:67px;
     border:2px solid rgb(128, 128, 172);
-    font-size:10px;
-    width:125px;
+    font-size:11px;
+    width:155px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap:13px;
+    gap:23px;
     font-weight:600;
     border-radius:50px;
-    
+
     
 }
 button:hover{
