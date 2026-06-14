@@ -107,29 +107,32 @@ span.inves{
 .downloads{
     display: flex;
     margin:100px;
-    height:20px;
+    height:10px;
     align-items: center;
-    widtjh:10px;
-    justify-content: center;
+    width: 100%;
     
 }
 .downloads button{
     cursor:pointer;
     display: flex;
-    margin-lefit:20px;
+    margin-left:20px;
     height:60px;
-    border:2px solid blue;
+    border:2px solid rgb(128, 128, 172);
     font-size:10px;
-    width:600px;
-
+    width:125px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:13px;
+    font-weight:600;
     border-radius:50px;
-
+    
+    
 }
-.downloads button input{
-    margin:10px;
-    font-size: smaller;
+button:hover{
+    color:white;
+    background:rgb(92, 92, 201);
 }
-
 .carousel{
     margin:100px auto;
     width:100%;
