@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d3d3d3;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height:100vh;
+    padding: 20px;
+}
+.body-box{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 15px;
+    height:500px;
+    width:400px;
+
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    
+}
+.social-icons button{
+    height:40px;
+    width:50px;
+    display: flex;
+    border-radius:10px;
+    cursor: pointer; 
+    paddking: 12px 24px;
+    text-align: center;
+}

@@ -3,25 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log-in Page</title>
+    <title>Log-in</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
 </head>
 <body>
     <div class="box">
-        <div class="top">
-            <p>Please enter your details </p>
-            <h1>Welcome</h1>
-        </div>
-        <input type="text" class="text" placeholder="enter your email" required>
-        <input type="text" class="text" placeholder="enter your password" required>
-        <div class="mid">
-            <input type="checkbox" required>
+        <div class="body-box">
+            <div class="header">
+                <p>Please enter your details </p>
+                <h1>Welcome</h1>
+            </div>
+            <form class="group">
+                <div class="input">
+                    <input type="email" class="text" placeholder="" required>
+                    <label for="email" class="float"><i class="fi fi-rr-envelope"></i>Email address</label>
+                </div>
+                <div class="input">
+                    <input type="password" class="text" placeholder="" required>
+                    <label for="password" class="float">Password</label>
+                </div>
+                
+                <div class="eye">
+                    p
+                </div>
+
+                <div class="input-grp checkbox-grp">
+                    <div class="form-check">
+                        <input type="checkbox" class="check" required>
+                        <label for="checkbox">Remember me</label>
+                    </div>
+        
+                </div>
+
+                <div class="forgot-password">
+                    <a href="">Forget password?</a>
+                </div>
+
+                <button class="btn">Sign In</button>
+
+            </form>     
+
+                <div class="divider">
+                    <p>Or</p>
+
+                </div>
+                
+            <div class="social-icons">
+                    
+                <button class="social-links">
+                    <img src="google.svg" alt="">
+                </button>
+                
+                <button class="social-links">
+                    <img src="facebook.svg" alt="">
+                 </button>
+                
+                <button class="social-links">
+                        <img src="apple.svg" alt="">
+                </button>
+            </div>
+                    
 
 
+            <div class="out">
+                <p>Don't have an account? <a href="">Sign Up</a></p>
+            </div>
         </div>
-        <button class="btn">Sign In</button>
-        <hr>
-        <p>Don't have an account? </p>
+        
     </div>
     
 </body>
