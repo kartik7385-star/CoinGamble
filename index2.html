@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
 </head>
 <body>
-    <div class="box">
+    <div class="container">
         
-        <div class="body-box">
+        <div class="form-container">
             <div class="header">
                 <p>Please enter your details </p>
                 <h1>Welcome</h1>
             </div>
-            <form class="group">
+            <form class="form-box">
                 <div class="input">
                     <input type="email" class="text" placeholder="" required>
-                    <label for="email" class="float"><i class="fi fi-rr-envelope"></i>Email address</label>
+                    <label for="email" class="float">Email address</label>
                 </div>
-                <div class="input">
+                <div class="input" id="newpassword">
                     <input type="password" class="text" placeholder="" class="pass"required>
-                    <label for="password" class="float">Password</label>
+                    <label for="password" id="password" class="float">Password</label>
                 </div>
                 
                 <div class="eye-icon">
-                    p
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-icon lucide-eye"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
                 </div>
 
                 <div class="input-grp checkbox-grp">
@@ -35,41 +35,42 @@
                         <label for="checkbox">Remember me</label>
                     </div>
         
-                </div>
-
-                <div class="forgot-password">
-                    <a href="">Forget password?</a>
+                    
+                    <div class="forgot-password">
+                        <a href="">Forget password?</a>
+                    </div>
                 </div>
 
                 <button class="btn">Sign In</button>
 
             </form>     
+            <div class="form-bottom">
+                    <div class="divider">
+                        <p>Or</p>
 
-                <div class="divider">
-                    <p>Or</p>
+                    </div>
+                    
+                <div class="social-icons">
+                        
+                    <button class="social-links">
+                        <img src="images/google.svg" class="img" alt="">
+                    </button>
+                    
+                    <button class="social-links">
+                        <img src="images/facebook.svg" class="img" alt="">
+                    </button>
+                    
+                    <button class="social-links">
+                            <img src="images/apple.svg" class="img" alt="">
+                    </button>
+                </div> 
+                        
 
+
+                <div class="out">
+                    <p>Don't have an account? <a href="">Sign Up</a></p>
                 </div>
-                
-            <!-- <div class="social-icons">
-                    
-                <button class="social-links">
-                    <img src="google.svg" alt="">
-                </button>
-                
-                <button class="social-links">
-                    <img src="facebook.svg" alt="">
-                 </button>
-                
-                <button class="social-links">
-                        <img src="apple.svg" alt="">
-                </button>
-            </div> -->
-                    
-
-
-            <div class="out">
-                <p>Don't have an account? <a href="">Sign Up</a></p>
-            </div>
+            </form-bottom>
         </div>
         
     </div>
