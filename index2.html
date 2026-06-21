@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        
+
         <div class="form-container">
             <div class="header">
                 <p>Please enter your details </p>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <button class="btn">Sign In</button>
+                <button class="btn" onclick="openPopup()" >Sign In</button>
 
             </form>     
             <div class="form-bottom">
@@ -51,18 +51,22 @@
                     </div>
                     
                 <div class="social-icons">
-                        
-                    <button class="social-links">
-                        <img src="images/google.svg" class="img" alt="">
-                    </button>
-                    
-                    <button class="social-links">
-                        <img src="images/facebook.svg" class="img" alt="">
-                    </button>
-                    
-                    <button class="social-links">
-                            <img src="images/apple.svg" class="img" alt="">
-                    </button>
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&dsh=S1393841024%3A1782005429720157&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AcDsRvznmzU7tRuvAcGXK1nm5AYxaywWlnYBgJOUrlKyfdqNJY7II_lVamsGOLvqndFDxDhUsTiYUw" target="_blank">
+   
+                        <button class="social-links">
+                            <img src="images/google.svg" target="_blank" class="img" alt="">
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank">
+                        <button class="social-links">
+                            <img src="images/facebook.svg" class="img" alt="">
+                        </button>
+                    </a>
+                    <a href="https://account.apple.com/sign-in" target="_blank" >
+                        <button class="social-links">
+                                <img src="images/apple.svg" class="img" alt="">
+                        </button>
+                    </a>
                 </div> 
                         
 
@@ -73,6 +77,16 @@
             </form-bottom>
         </div>
         
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <button class=""><img src="images/correct.svg" id="tick" class="popup-logo" > </button>
+           <div class="write">
+                <h1>Thank You,</h1>
+                <p>The backend is not created by my<br><span> lazy developer..</span> ps: frontend is broke too </p>
+            </div>
+            <button onclick="closePopup"><img src="images/cross.svg"id="cross" class="popup-logo" > </button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -27,6 +27,9 @@ nav{
     background:rgba(131, 119, 119, 0.1);
     border-radius: 30px;
     top:12px;
+    padding:33px 13px;
+    border:1px solid rgba(237, 237, 237, 0.9);
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.2);
     
     
 }
@@ -51,7 +54,9 @@ nav{
     
     
 }
-
+.btn{
+    text-decoration: none;
+}
 
  .btn button {
     display: flex;
@@ -64,7 +69,7 @@ nav{
     font-size: 14px;
     font-weight:600;
     
-    transition:0.5s;
+    transition:0.6s;
     overflow: hidden;
     z-index: 1;
     position: relative;
@@ -81,7 +86,7 @@ nav{
     width: 0;
     top:0;
     left:0; 
-    transition: 0.5s ;
+    transition: 0.7s ;
 
 
 }
@@ -112,7 +117,8 @@ nav{
 }
 main{
     display: flex;
-    margin:200px 100px;
+    margin:200px ;
+    
 }
 .content{
     flex-direction: column;
@@ -122,8 +128,7 @@ main{
     width: 500px;
 
 }
-.content h1{
-}
+
 .para{
     line-height: 1.8;
 

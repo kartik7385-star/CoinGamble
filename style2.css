@@ -1,19 +1,18 @@
-@import url(https://fonts.bunny.net/css?family=advent-pro:200);
-
+@import url(https://fonts.bunny.net/css?family=abeezee:400i);
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Abhaya Libre',sans-serif;
 }
 
 .container{
+    font-family: 'ABeeZee ',sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height:100vh;
-    background-color: #eee;
+    background-color: #cac9c9;
     padding: 20px;
 }
 .form-container{
@@ -140,7 +139,7 @@
 .social-icons{
     display: flex;
     height:50px;
-    gap:20px;   
+    gap:29px;   
      margin-bottom: 20px;
 
 }
@@ -164,4 +163,64 @@
 .out a{
     text-decoration: none;
     color:rgb(19, 19, 168);
+}
+.popup{
+    font-family:'Aclonica', sans-serif;
+    position: fixed;
+    background-color: rgb(206, 238, 252);
+    height: 120px;
+    width: 400px;
+    left:20px;
+    bottom:20px;
+    padding:20px 30px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    font-size:19px;
+    visibility: hidden;
+
+}
+.open-popup{
+    visibility: visible;
+}
+
+.popup-content{
+    position: relative;
+}
+.popup-logo{
+    position:absolute;
+    background-color: white;
+
+   
+}
+#tick{
+    height:50px;
+    width:50px;
+    transform: translate(-60%,-120%);
+    background-color: transparent;
+    
+}
+#cross{
+    height:20px;
+    width: 20px;
+    cursor: pointer;
+    top:-10px;
+    right:-19px;
+    float: right;
+    background-color:transparent;
+}
+button{
+    background-color: transparent;
+    border:none;
+}
+span{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(221, 180, 187);
+}
+.write{
+    margin-top:-10px;
+    font-size:14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
