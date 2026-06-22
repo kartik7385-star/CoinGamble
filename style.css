@@ -122,15 +122,58 @@ nav{
     
 }
 .jj{
-    position: fixed;
     height:550px;
     width:700px;
     float: right;
     margin-right:80px;
     transform: translateY(-50%);
 }
+@media (max-width: 1024px) {
+  .jj {
+    height: 490px;
+    width: 540px;
+    margin-right: 10px;
 
+  }
+  nav{
+    z-index: 1000;
+  }
+  .logo{
+    transform: translateX(-26%);
+  }
 
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+  }
+  h1{
+    text-align: center;
+  }
+  .subject{
+    position: relative;
+  }
+  .downloads {
+    transform: translateX(15%);
+
+  }
+  .motive{
+    display: flex;
+    border:2px solid black;
+    
+    padding:50px;
+    background-color: rgb(72, 71, 71);
+    color: white;
+    
+    width: 100vw;
+    
+    justify-content: center;
+    text-align: center;
+    gap:100px;
+
+}
+}
 .para{
     line-height: 1.8;
 
@@ -203,7 +246,7 @@ span.inves:hover{
     padding:100px ;
     background-color: rgb(72, 71, 71);
     color: white;
-    width: 70%;
+    width: 90vw;
     max-width: 1220px;
     
     justify-content: center;
@@ -224,7 +267,7 @@ span.inves:hover{
     from{
         opacity:0;
         scale:0.5;
-        transform: translateX(500px) ;
+        transform: translateY(500px) ;
 
     }
     to{
