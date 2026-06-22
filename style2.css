@@ -224,3 +224,10 @@ span{
     justify-content: center;
     flex-direction: column;
 }
+
+.plant{
+    height:100px;
+    width: 150px;
+    float: right;
+    transform: translate(10%,-05%);
+}
